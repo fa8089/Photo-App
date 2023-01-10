@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.lahsuak.smartgallary.HomeFragment"
+        android:name="com.lahsuak.smartgallary.ui.HomeFragment"
         android:label="All Photos"
         tools:layout="@layout/fragment_home" >
         <action
@@ -18,10 +18,16 @@
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right"
             />
+        <action
+            android:id="@+id/action_homeFragment_to_colorExtractorFragment"
+            app:destination="@id/colorExtractorFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_cameraFragment"
+            app:destination="@id/cameraFragment" />
     </fragment>
     <fragment
         android:id="@+id/viewFragment"
-        android:name="com.lahsuak.smartgallary.ViewFragment"
+        android:name="com.lahsuak.smartgallary.ui.ViewFragment"
         android:label="{date}"
         tools:layout="@layout/fragment_view" >
         <argument
@@ -30,5 +36,18 @@
         <argument
             android:name="date"
             app:argType="string" />
+        <argument
+            android:name="position"
+            app:argType="integer"/>
     </fragment>
+    <fragment
+        android:id="@+id/colorExtractorFragment"
+        android:name="com.lahsuak.smartgallary.ui.ColorExtractorFragment"
+        android:label="fragment_color_extractor"
+        tools:layout="@layout/fragment_color_extractor" />
+    <activity
+        android:id="@+id/cameraFragment"
+        android:name="com.lahsuak.smartgallary.ui.MainActivity"
+        android:label="fragment_camera"
+        tools:layout="@layout/fragment_camera" />
 </navigation>

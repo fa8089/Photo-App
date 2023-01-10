@@ -1,36 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
-   <item android:id="@+id/view"
-       android:title="View"
-       >
-       <menu>
-           <item
-               android:id="@+id/grid1"
-               android:title="2x2" />
-           <item
-               android:id="@+id/grid2"
-               android:title="3x3" />
-           <item
-               android:id="@+id/grid3"
-               android:title="4x4" />
-           <item
-               android:id="@+id/grid4"
-               android:title="8x8" />
-       </menu>
-   </item>
-    <item android:id="@+id/sort_order"
-        android:title="Sort order">
-        <menu>
-        <item
-            android:id="@+id/by_date_added"
-            android:title="By Date Added" />
-        <item
-            android:id="@+id/by_date_modified"
-            android:title="By Date Modified" />
-        <item
-            android:id="@+id/by_size"
-            android:title="By Size" />
-        </menu>
-    </item>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/grid1"
+        android:title="@string/_2x2" />
+    <item
+        android:id="@+id/grid2"
+        android:title="@string/_3x3" />
+    <item
+        android:id="@+id/grid3"
+        android:title="@string/_4x4" />
+    <item
+        android:id="@+id/grid4"
+        android:title="@string/_8x8" />
 </menu>

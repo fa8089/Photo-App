@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/by_date_added"
+        android:title="@string/by_date_added" />
+    <item
+        android:id="@+id/by_date_modified"
+        android:title="@string/by_date_modified" />
+<!--    <item-->
+<!--        android:id="@+id/by_size"-->
+<!--        android:title="@string/by_size" />-->
+</menu>
