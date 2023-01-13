@@ -1,5 +1,13 @@
 # SmartGallery
-It is a gallery app using Navigation components.
+It is a gallery app using Jetpack components, Kotlin, MVVM.
+You will learn android storage related handling, how grid layout and viewpager works, and how to make screen to fullscreen.
+
+Features:
+- Mutliple grid view size ie. 2x2, 3x3 etc
+- Swip to see photos
+- Date wise sorting 
+- Two sort supported old to new and new to old
+- Full screen photo viewing experience
 
 ![Screenshot_20230113_111157 (1)](https://user-images.githubusercontent.com/49050597/212250228-e573549c-fe11-4998-802b-9e966e1f4701.png)
 ![Screenshot_20230113_111310](https://user-images.githubusercontent.com/49050597/212249286-89e3674e-dce8-4f11-8499-7d822565b311.png)
@@ -8,3 +16,7 @@ It is a gallery app using Navigation components.
 
 https://user-images.githubusercontent.com/49050597/212249913-d2790d5d-acfa-4aa0-867e-a4837f257648.mp4
 
+
+Author: Kaushal Vasava
+
+Thank you
