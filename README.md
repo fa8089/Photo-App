@@ -3,7 +3,7 @@ It is a gallery app using Jetpack components, Kotlin, MVVM.
 You will learn android storage related handling, how grid layout and viewpager works, and how to make screen to fullscreen.
 
 Features:
-- Mutliple grid view size ie. 2x2, 3x3 etc
+- Mutliple grid view size ie. 2x2, 3x3, 4x4, 8x8 etc
 - Swip to see photos
 - Date wise sorting 
 - Two sort supported old to new and new to old
