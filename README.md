@@ -9,6 +9,17 @@ Features:
 - Two sort supported old to new and new to old
 - Full screen photo viewing experience
 
+You will learn following android components:
+- Navigaton components for navigation
+- Viewpager2
+- GridLayout in recyclerview
+- Custom comparator
+- Storage access and permission handling
+- Fullscreen view
+- Zoomage library for zoom-in/zoom-out, pinch to zoom etc
+- Glide library from image loading
+
+
 ![Screenshot_20230113_111157 (1)](https://user-images.githubusercontent.com/49050597/212250228-e573549c-fe11-4998-802b-9e966e1f4701.png)
 ![Screenshot_2023-01-13-12-10-44-805_com lahsuak smartgallary (1)](https://user-images.githubusercontent.com/49050597/212254800-f7003d2f-4e92-4ff9-908d-3784c274dc29.jpg)
 ![Screenshot_20230113_111310](https://user-images.githubusercontent.com/49050597/212249286-89e3674e-dce8-4f11-8499-7d822565b311.png)
