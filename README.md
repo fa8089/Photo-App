@@ -17,7 +17,8 @@ You will learn following android components:
 - Storage access and permission handling
 - Fullscreen view
 - Zoomage library for zoom-in/zoom-out, pinch to zoom etc
-- Glide library from image loading
+- Glide library for image load
+
 
 
 ![Screenshot_20230113_111157 (1)](https://user-images.githubusercontent.com/49050597/212250228-e573549c-fe11-4998-802b-9e966e1f4701.png)
